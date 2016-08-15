@@ -1,0 +1,7 @@
+name: IT Consulting
+defaults:
+    scope: 
+        path: ""
+    values:
+        basejs: "js"
+        author: "pablo"
