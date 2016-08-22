@@ -2,35 +2,184 @@
 layout: default
 
 ---
-<!--
-<ul id="slide-out" class="side-nav fixed">
-      <li><a href="#!">PRIMER ENLACE</a></li>
-      <li><a href="#!">SEGUNDO ENLACE</a></li>
-</ul>
-<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
-
-
 
 <div class="row">
-     <div class="col s3">
-        <ul class="collapsible cream_bk" data-collapsible="expandable">
-              <li>
-                  <div class="collapsible-header blue-text text-darken-2"><i class="material-icons">assignment</i>Procesos<i class="material-icons right">arrow_drop_down</i></div>
-                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                  <div class="collapsible-header blue-text text-darken-2"><i class="material-icons">lightbulb_outline</i>Instructivos<i class="material-icons right">arrow_drop_down</i></div>
-                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-              <li>
-                  <div class="collapsible-header blue-text text-darken-2"><i class="material-icons">picture_in_picture</i>Registros<i class="material-icons right">arrow_drop_down</i></div>
-                  <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-              </li>
-        </ul>
-     </div>
-     <div class="col s9">
-            <div class="cream_bk">
-                  {{ content }}
-            </div>
-     </div>
+    <div class="col s4 blue-text text-darken-4">
+        <ul class="collapsible  cream_bk" data-collapsible="expandable">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">assignment</i><b>Analisis de los componentes del SGBD</b><i class="material-icons right">arrow_drop_down</i></div>
+                <div class="collapsible-body">
+                    <div class="collection">
+                        <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">Proceso (PROC-01)</i></a>
+                    </div>
+                    <ul class="collapsible cream_bk ul-collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><b>Revision de las estructuras de memoria</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-01-INS-01)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-01-INS-01-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Revision del archivo de configuracion</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-01-INS-02)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-01-INS-02-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Revision de las bitacoras de transaccion</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-01-INS-03)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-01-INS-03-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Revision de los archivos de datos</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-01-INS-04)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-01-INS-04-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Revision de los archivos de control</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-01-INS-05)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-01-INS-05-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Revision de los tablespaces</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-01-INS-06)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-01-INS-06-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">assignment</i><b>Creacion de una base de datos</b><i class="material-icons right">arrow_drop_down</i></div>
+                <div class="collapsible-body">
+                    <div class="collection">
+                        <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">Proceso (PROC-02)</i></a>
+                    </div>
+                    <ul class="collapsible ul-collapsible" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><b>Analisis de la organizacion</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-02-INS-01)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-02-INS-01-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Distribucion de los grupos de datos</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-02-INS-02)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-02-INS-02-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Implementacion de la estructura logica</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-02-INS-03)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-02-INS-03-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Construccion de la base de datos</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-02-INS-04)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-02-INS-04-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">assignment</i><b>Mantenimiento de la base de datos</b><i class="material-icons right">arrow_drop_down</i></div>
+                <div class="collapsible-body">
+                    <div class="collection">
+                        <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">Proceso (PROC-03)</i></a>
+                    </div>
+                    <ul class="collapsible ul-collapsible" data-collapsible="expandable">
+                        <li>
+                            <div class="collapsible-header"><b>Creacion de un grupo de bitacoras</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">PROC-03.1</i></a>
+                                    <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-03.1-INS-01)</i></a>
+                                    <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-03.1-INS-01-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Inclusion de miembros a un grupo de bitacoras</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                 <div class="collection">
+                                    <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">PROC-03.2</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-03.2-INS-01)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-03.2-INS-01-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Ampliacion de un tablespace</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">PROC-03.3</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-03.3-INS-01)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-03.3-INS-01-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><b>Creacion de un tablespace</b><i class="material-icons right">arrow_drop_down</i></div>
+                            <div class="collapsible-body">
+                                <div class="collection">
+                                    <a href="#!" class="collection-item blue-text text-darken-2"><i class="italica">PROC-03.4</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Instructivo (PROC-03.4-INS-01)</i></a>
+                                    <a href="#" class="collection-item blue-text text-darken-2"><i class="italica">Registro (PROC-03.4-INS-01-REG-01)</i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>  
+    </div>
+    <div class="col s8">
+        <div class="cream_bk">
+            {{ content }}
+        </div>
+    </div>
 </div>
+     <!-- <ul class="collapsible" data-collapsible="expandable">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">assignment</i>Analisis de los componentes del SGBD<i class="material-icons right">arrow_drop_down</i></div>
+                <div class="collapsible-body col s12">
+                    <p>uoiueitoeirt</p>
+                </div>
+            </li>
+
+        </ul>-->

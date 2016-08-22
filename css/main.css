@@ -5,3 +5,12 @@ body {
 .cream_bk {
   background-image: url("/images/cream_dust.png");
 }
+
+.ul-collapsible {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.italica {
+    padding-left: 2.8em;
+}
